@@ -2,23 +2,18 @@
 
 int main(){
 	
-	int x;
-	int y;
-	int ans;
+	int c,b = 32;
+	float f,a = 1.8;
+	
+
+	
+	printf("Enter value of celsius : ",c);
+	scanf("%d",&c);
+	
+		f = (c * a) + b;
 	
 	
-	
-	printf("Enter the value of x :");
-	scanf("%d",&x);
-	
-	printf("Enter the value of y :");
-	scanf("%d",&y);
-	
-	ans = (x*x*x) + ((3*x*y)*(x+y)) + (y*y*y);
-	
-	printf("The ans is : %d",ans);
-	
-	
+	printf("F : %.2f",f);
 	
 	
 	
@@ -26,26 +21,3 @@ int main(){
 	
 	return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

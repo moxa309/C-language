@@ -2,26 +2,19 @@
 
 int main(){
 	
-	int x;
-	int y;
-	int ans;
+	int bs,hra,da,ta,gs;
 	
+	printf("Enter base salary : ",bs);
+	scanf("%d",&bs);
 	
+	hra = (10.00/100)*bs;
 	
-	printf("Enter the value of x :");
-	scanf("%d",&x);
+	da = (5.00/100)*bs;
+	ta = (8.00/100)*bs;
 	
-	printf("Enter the value of y :");
-	scanf("%d",&y);
+	gs = bs + hra + da + ta;
 	
-	ans = (x*x*x) - (y*y*y) - ((3*x*y)*(x+y));
-	
-	printf("The ans is : %d",ans);
-	
-	
-	
-	
-	
+	printf("Gross salary is : %d",gs);
 	
 	
 	return 0;
