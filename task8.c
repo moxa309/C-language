@@ -4,7 +4,7 @@ int main(){
 	
 	int r,c;
 	
-	for(r=5 ; r>=1 ; r--){
+	for(r=1 ; r<=5 ; r++){
 		
 		for(c=r ; c<=5 ; c++){
 			

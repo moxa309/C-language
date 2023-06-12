@@ -2,31 +2,16 @@
 
 int main(){
 	
-	int x;
-	int y;
-	int z;
-	int ans;
+	int r,c;
 	
-	
-	
-	printf("Enter the value of x : ");
-	scanf("%d",&x);
-	
-	printf("Enter the value of y : ");
-	scanf("%d",&y);
-	
-	printf("Enter the value of z : ");
-	scanf("%d",&z);
-	
-	ans = (x*x*x) - (y*y*y) - (z*z*z) - (3*(x+y))+(3*(y+z))+(3*(z+x));
-	
-	printf("The ans is : %d",ans);
-	
-	
-	
-	
-	
-	
+	for(r=5 ; r>=1 ; r--){
+		
+		for(c=5 ; c>=r ; c--){
+			
+			printf("%d",r);
+		}
+		printf("\n");
+	}
 	
 	return 0;
 }

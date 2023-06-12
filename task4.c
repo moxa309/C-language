@@ -2,20 +2,16 @@
 
 int main(){
 	
-	int bs,hra,da,ta,gs;
+	int r,c;
 	
-	printf("Enter base salary : ",bs);
-	scanf("%d",&bs);
-	
-	hra = (10.00/100)*bs;
-	
-	da = (5.00/100)*bs;
-	ta = (8.00/100)*bs;
-	
-	gs = bs + hra + da + ta;
-	
-	printf("Gross salary is : %d",gs);
-	
+	for(r=5 ; r>=1 ; r--){
+		
+		for(c=5 ; c>=r ; c--){
+			
+			printf("%d",c);
+		}
+		printf("\n");
+	}
 	
 	return 0;
 }

@@ -2,22 +2,16 @@
 
 int main(){
 	
-	int c,b = 32;
-	float f,a = 1.8;
+	int r,c;
 	
-
-	
-	printf("Enter value of celsius : ",c);
-	scanf("%d",&c);
-	
-		f = (c * a) + b;
-	
-	
-	printf("F : %.2f",f);
-	
-	
-	
-	
+	for(r=1 ; r<=5 ; r++){
+		
+		for(c=1 ; c<=r ; c++){
+			
+			printf("%d",r);
+		}
+		printf("\n");
+	}
 	
 	return 0;
 }
